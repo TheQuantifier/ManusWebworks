@@ -5,10 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Manus Webworks</title>
-  <meta name="description" content="Manus Webworks is a digital studio building practical systems, tools, and civic-focused applications." />
+  <meta name="description" content="Manus Webworks is a small studio building structure-first software—practical tools, civic systems, and reliable digital infrastructure." />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Manus Webworks" />
+  <meta property="og:description" content="Structure-first software. Built carefully, with clarity and long-term reliability at the core." />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:type" content="website" />
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css" />
@@ -22,8 +28,10 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <img src="images/logo_small.png" alt="Manus Webworks logo" class="logo" />
-        <span class="brand-name">Manus Webworks</span>
+        <a href="/" aria-label="Manus Webworks home" style="display:flex;align-items:center;gap:0.85rem;text-decoration:none;">
+          <img src="images/logo_small.png" alt="Manus Webworks logo" class="logo" />
+          <span class="brand-name">Manus Webworks</span>
+        </a>
       </div>
     </div>
   </header>
@@ -35,10 +43,9 @@
     ========================== -->
     <section class="hero">
       <div class="container">
-        <h1>Building digital systems<br>with purpose and structure.</h1>
+        <h1>Structure-first software.</h1>
         <p class="hero-subtext">
-          Manus Webworks is a small studio focused on creating practical software,
-          civic tools, and thoughtful digital infrastructure.
+          Built carefully, with clarity and long-term reliability at the core.
         </p>
       </div>
     </section>
@@ -53,7 +60,7 @@
         <div class="project-grid">
 
           <!-- Finance App -->
-          <div class="project-card">
+          <article class="project-card">
             <div class="project-header">
               <img src="images/financeapplogo.jpg" alt="Finance App logo" class="project-logo" />
               <h3>
@@ -64,50 +71,44 @@
             </div>
 
             <p>
-              A personal and small-business finance platform designed to make
-              tracking, analysis, and organization intuitive and reliable.
+              A personal and small-business finance platform focused on clean records,
+              fast organization, and reliable reporting.
             </p>
 
-            <a
-              class="project-link"
-              href="https://app.thequantifier.com"
-              target="_blank"
-              rel="noopener"
-            >
+            <a class="project-link" href="https://app.thequantifier.com" target="_blank" rel="noopener">
               Go to app →
             </a>
-          </div>
+          </article>
 
           <!-- Civic Helper -->
-          <div class="project-card">
+          <article class="project-card">
             <div class="project-header">
               <img src="images/civicapplogo.png" alt="Civic Helper logo" class="project-logo" />
-              <h3><a href="#" aria-disabled="true">Civic Helper</a></h3>
+              <h3><span aria-disabled="true">Civic Helper</span></h3>
             </div>
 
             <p>
-              A municipal-focused application helping cities organize and present
-              local businesses for residents, visitors, and tourists.
+              A civic directory tool for cities—organizing local businesses for residents,
+              visitors, and tourists with clarity and consistency.
             </p>
 
             <span class="project-status">In progress</span>
-          </div>
+          </article>
 
           <!-- Church Unity Aid -->
-          <div class="project-card">
+          <article class="project-card">
             <div class="project-header">
               <img src="images/churchunityapplogo.png" alt="Church Unity Aid logo" class="project-logo" />
-              <h3><a href="#" aria-disabled="true">Church Unity Aid</a></h3>
+              <h3><span aria-disabled="true">Church Unity Aid</span></h3>
             </div>
 
             <p>
-              A comparative platform for examining and understanding differences
-              between church philosophies, doctrines, and core beliefs—designed
-              to encourage clarity, dialogue, and informed unity.
+              A comparison platform for church philosophies, doctrines, and beliefs—built
+              to support clarity, good-faith dialogue, and informed unity.
             </p>
 
             <span class="project-status">In progress</span>
-          </div>
+          </article>
 
         </div>
       </div>
@@ -120,10 +121,9 @@
       <div class="container">
         <h2>About the Studio</h2>
         <p>
-          Manus Webworks exists to design and maintain digital systems that are
-          durable, understandable, and useful. The studio operates as an
-          umbrella for independent projects, experiments, and applications
-          rather than as a single commercial product.
+          Manus Webworks designs and maintains digital systems meant to stay understandable over time.
+          It’s an umbrella for independent products, prototypes, and experiments—built with a bias
+          toward structure, documentation, and durability.
         </p>
       </div>
     </section>
@@ -137,20 +137,18 @@
           src="images/john-hand.jpg"
           alt="John Hand portrait"
           class="designer-photo"
+          loading="lazy"
         />
 
         <div class="designer-text">
           <h2>About the Designer</h2>
           <p>
-            Manus Webworks was founded and designed by <strong>John Hand</strong>,
-            known online as <em>TheQuantifier</em>. His work focuses on building
-            clear, principled digital systems that balance structure, usability,
-            and long-term thinking.
+            Manus Webworks is founded and designed by <strong>John Hand</strong>,
+            known online as <em>TheQuantifier</em>.
           </p>
           <p>
-            Drawing from interests in mathematics, software engineering, and
-            philosophy, he approaches digital tools as systems to be understood,
-            refined, and trusted rather than simply used.
+            His work centers on structure-first engineering—building software that is clear to read,
+            easy to maintain, and dependable in real use.
           </p>
           <p>
             <a
@@ -174,7 +172,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Manus Webworks</p>
-      <p class="footer-note">A digital studio for practical systems</p>
+      <p class="footer-note">Structure-first software.</p>
     </div>
   </footer>
 
