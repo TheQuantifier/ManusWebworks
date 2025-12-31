@@ -102,24 +102,12 @@ a { color: inherit; }
   align-items: baseline;
 }
 
-/* Optional: make brand text subtly “alive” without being loud */
-.brand-name::after {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-left: 10px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  box-shadow: 0 0 0 4px rgba(124,92,255,0.12);
-}
-
 /* =========================
    Hero
 ========================= */
 
 .hero {
-  padding: 5.25rem 0 4.25rem;
+  padding: 3rem 0 3rem;
 }
 
 .hero h1 {
@@ -197,8 +185,8 @@ a { color: inherit; }
 }
 
 .project-logo {
-  width: 38px;
-  height: 38px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
   border-radius: 10px;
   background: rgba(255,255,255,0.08);
