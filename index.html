@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Manus Webworks</title>
-  <meta name="description" content="Manus Webworks is a small studio building structure-first software—practical tools, civic systems, and reliable digital infrastructure." />
+  <title>Manus Webworks | Structure-first software</title>
+  <meta name="description" content="Manus Webworks is a small studio building structure-first software: practical tools, civic systems, and reliable digital infrastructure." />
+  <meta name="theme-color" content="#101411" />
+  <link rel="canonical" href="https://manuswebworks.org/" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png" />
@@ -13,7 +15,8 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Manus Webworks" />
   <meta property="og:description" content="Structure-first software. Built carefully, with clarity and long-term reliability at the core." />
-  <meta property="og:image" content="images/logo_med.png" />
+  <meta property="og:image" content="https://manuswebworks.org/images/logo_med.png" />
+  <meta property="og:url" content="https://manuswebworks.org/" />
   <meta property="og:type" content="website" />
 
   <!-- Styles -->
@@ -21,6 +24,7 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <!-- =========================
        Header
@@ -28,22 +32,22 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <a href="/" aria-label="Manus Webworks home" style="display:flex;align-items:center;gap:0.85rem;text-decoration:none;">
-          <img src="images/favicon.png" alt="Manus Webworks logo" class="logo" />
+        <a href="./" aria-label="Manus Webworks home" class="brand-link">
+          <img src="images/favicon.png" alt="Manus Webworks logo" class="logo" width="160" height="160" decoding="async" />
           <span class="brand-name">Manus Webworks</span>
         </a>
       </div>
     </div>
   </header>
 
-  <main>
+  <main id="main">
 
     <!-- =========================
          Hero
     ========================== -->
     <section class="hero">
       <div class="container">
-        <h1>Easy-To-Use software.</h1>
+        <h1>Easy-to-use software.</h1>
         <p class="hero-subtext">
           Built carefully, with clarity and long-term reliability at the core.
         </p>
@@ -59,14 +63,13 @@
 
         <div class="project-grid">
 
-          <!-- Wise Wallet -->
+          <!-- WalletLens -->
           <article class="project-card">
             <div class="project-header">
-              <img src="images/wisewalletlogo.png" alt="Wise Wallet logo" class="project-logo" />
+              <img src="images/wisewalletlogo.png" alt="WalletLens logo" class="project-logo" width="1024" height="1024" loading="lazy" decoding="async" />
               <h3>
-                <a href="
-            <a class="project-link" href="https://wisewallet.manuswebworks.org" target="_blank" rel="noopener">
-                  WiseWallet App
+                <a href="https://wisewallet.manuswebworks.org/" target="_blank" rel="noopener noreferrer">
+                  WalletLens
                 </a>
               </h3>
             </div>
@@ -76,17 +79,17 @@
               fast organization, and reliable reporting.
             </p>
 
-            <a class="project-link" href="https://aieventplanner.manuswebworks.org" target="_blank" rel="noopener">
-              Go to app →
+            <a class="project-link" href="https://wisewallet.manuswebworks.org/" target="_blank" rel="noopener noreferrer">
+              Go to app <span aria-hidden="true">&rarr;</span>
             </a>
           </article>
 
           <!-- AI Event Planner -->
           <article class="project-card">
             <div class="project-header">
-              <img src="images/aieventplanner.svg" alt="AI Event Planner logo" class="project-logo" />
+              <img src="images/aieventplanner.svg" alt="AI Event Planner logo" class="project-logo" width="64" height="64" loading="lazy" decoding="async" />
               <h3>
-                <a href="https://aieventplanner.manuswebworks.org" target="_blank" rel="noopener">
+                <a href="https://aieventplanner.manuswebworks.org" target="_blank" rel="noopener noreferrer">
                   AI Event Planner
                 </a>
               </h3>
@@ -96,20 +99,16 @@
               An AI-powered event planning app that helps plan your event, researches venues and vendors, contacts them on your behalf, and helps you compare options to book the best fit.
             </p>
 
-            <a class="project-link" href="https://aieventplanner.manuswebworks.org" target="_blank" rel="noopener">
-              Go to app →
+            <a class="project-link" href="https://aieventplanner.manuswebworks.org" target="_blank" rel="noopener noreferrer">
+              Go to app <span aria-hidden="true">&rarr;</span>
             </a>
           </article>
           
           <!-- Objective News Aggregator -->
           <article class="project-card">
             <div class="project-header">
-              <img src="images/objnewsagglogo.png" alt="Objective News logo" class="project-logo" />
-              <h3>
-                <a href="" target="_blank" rel="noopener">
-                  Objective News Aggregator
-                </a>
-              </h3>
+              <img src="images/objnewsagglogo.png" alt="Objective News logo" class="project-logo" width="740" height="740" loading="lazy" decoding="async" />
+              <h3><span>Objective News Aggregator</span></h3>
             </div>
 
             <p>
@@ -117,33 +116,33 @@
               clear sourcing, and minimizing bias.
             </p>
 
-            <span class="project-status">Coming Soon</span>
+            <span class="project-status">Coming soon</span>
           </article>
 
           <!-- Civic Helper -->
           <article class="project-card">
             <div class="project-header">
-              <img src="images/civichelperlogo.png" alt="Civic Helper logo" class="project-logo" />
+              <img src="images/civichelperlogo.png" alt="Civic Helper logo" class="project-logo" width="770" height="770" loading="lazy" decoding="async" />
               <h3><span aria-disabled="true">Civic Helper</span></h3>
             </div>
 
             <p>
-              A civic directory tool for cities—organizing local businesses for residents,
+              A civic directory tool for cities: organizing local businesses for residents,
               visitors, and tourists with clarity and consistency.
             </p>
 
-            <span class="project-status">Coming Soon</span>
+            <span class="project-status">Coming soon</span>
           </article>
 
           <!-- Church Unity Aid -->
           <article class="project-card">
             <div class="project-header">
-              <img src="images/churchunitylogo.png" alt="Church Unity logo" class="project-logo" />
+              <img src="images/churchunitylogo.png" alt="Church Unity logo" class="project-logo" width="1024" height="1024" loading="lazy" decoding="async" />
               <h3><span aria-disabled="true">Church Unity Aid</span></h3>
             </div>
 
             <p>
-              A comparison platform for church philosophies, doctrines, and beliefs—built
+              A comparison platform for church philosophies, doctrines, and beliefs: built
               to support clarity, good-faith dialogue, and informed unity.
             </p>
 
@@ -162,7 +161,7 @@
         <h2>About the Studio</h2>
         <p>
           Manus Webworks designs and maintains digital systems meant to stay understandable over time.
-          It’s an umbrella for independent products, prototypes, and experiments—built with a bias
+          It&rsquo;s an umbrella for independent products, prototypes, and experiments, built with a bias
           toward structure, documentation, and durability.
         </p>
       </div>
@@ -177,7 +176,10 @@
           src="images/john-hand.png"
           alt="John Hand portrait"
           class="designer-photo"
+          width="994"
+          height="995"
           loading="lazy"
+          decoding="async"
         />
 
         <div class="designer-text">
@@ -193,10 +195,10 @@
             <a
               href="https://www.linkedin.com/in/johnahand"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="designer-link"
             >
-              View John Hand on LinkedIn →
+              View John Hand on LinkedIn <span aria-hidden="true">&rarr;</span>
             </a>
           </p>
         </div>
@@ -210,7 +212,7 @@
   ========================== -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> Manus Webworks</p>
+      <p>&copy; <span id="year"></span> Manus Webworks</p>
     </div>
   </footer>
 
